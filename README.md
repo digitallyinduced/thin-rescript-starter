@@ -1,4 +1,4 @@
-# IHP React Starter
+# IHP Backend ReScript Starter
 
 ## Usage
 
