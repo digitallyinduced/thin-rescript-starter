@@ -31,9 +31,9 @@ IHP Backend Project, click `SCHEMA` -> `Type Definitions` and then run the `npm 
 After this you can start the web server and the compiler:
 
 ```bash
-# Start server
-npm run dev
+# Start compiler
+npm run rescript:dev
 
-# Start compiler (Run this in a second terminal window)
-npm run rescript:start
+# Start server, Run this in a second terminal window
+npm run dev
 ```
