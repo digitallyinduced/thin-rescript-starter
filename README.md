@@ -1,21 +1,39 @@
-# ReScript Project Template
+# IHP React Starter
 
-The only official ReScript starter template.
+## Usage
 
-## Installation
+### Install
 
-```sh
+On first start install the npm dependencies:
+
+```bash
 npm install
 ```
 
-## Build
+### BACKEND_URL
 
-- Build: `npm run build`
-- Clean: `npm run clean`
-- Build & watch: `npm run start`
+Set the `BACKEND_URL` in `.env` to your project's url:
 
-## Run
+```bash
+# .env
+BACKEND_URL=https://REPLACE ME.di1337.com
+```
 
-```sh
-node src/Demo.bs.js
+### Type Definitions
+
+Before you can start to code with ReScript, you need to install the type bindings for IHP Backend. For that open your
+IHP Backend Project, click `SCHEMA` -> `Type Definitions` and then run the `npm install` command listed there for ReScript types.
+
+![](https://ihpbackend.digitallyinduced.com/Guide/TypeScript/project-types.png)
+
+### Run
+
+After this you can start the web server and the compiler:
+
+```bash
+# Start server
+npm run dev
+
+# Start compiler (Run this in a second terminal window)
+npm run rescript:start
 ```
