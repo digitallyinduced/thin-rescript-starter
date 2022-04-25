@@ -1,8 +1,14 @@
-# IHP Backend ReScript Starter
+# Thin ReScript Starter
 
 ## Usage
 
 ### Install
+
+Create a new project:
+
+```bash
+npx degit digitallyinduced/thin-rescript-starter myproject
+```
 
 On first start install the npm dependencies:
 
