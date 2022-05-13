@@ -1,4 +1,4 @@
-open IHPBackend
+open ThinBackend
 
 @react.component
 let make = () => {
@@ -9,7 +9,7 @@ let make = () => {
             ->limit(10)
     );*/
 
-    <IHPBackend>
+    <ThinBackend>
         /*{switch tasks {
             | Some(tasks) => Belt.Array.map(tasks, task => {
                     <Task key={task.id} task/>
@@ -18,5 +18,5 @@ let make = () => {
         }}*/
 
         <div>{React.string("Hello IHP Backend World!")}</div>
-    </IHPBackend>
+    </ThinBackend>
 }
